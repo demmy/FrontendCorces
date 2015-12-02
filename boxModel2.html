@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Box Model 2</title>
+
+    <style>
+        .container {
+            display: table;
+            width: 1px;
+        }
+        
+        .desc {
+            border: 5px solid gray;
+            padding: 15px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Calculate the total width:</h1>
+    <div class="container">
+        <div class="container">
+            <div class="image">
+                <img src="http://lorempixel.com/300/300/cats" />
+            </div>
+            <div class="desc">
+                This picture aboveis 350px wide. The total width of elements is also 350px.
+            </div>
+        </div>
+</body>
+
+</html>
